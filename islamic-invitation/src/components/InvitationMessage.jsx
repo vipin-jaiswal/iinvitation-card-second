@@ -67,17 +67,19 @@ Your presence, prayers, and blessings would mean the world to us as we begin thi
 
             {/* Bride and groom names */}
             <div className="mt-5">
+              
               <h3 className="font-pinyon text-3xl sm:text-4xl">
-                {weddingData.bride.name}
+                {weddingData.groom.name}
               </h3>
+            
 
               <p className="my-2 font-serif text-2xl italic text-[#b18a42]">
                 &amp;
               </p>
-
-              <h3 className="font-pinyon text-3xl sm:text-4xl">
-                {weddingData.groom.name}
+                <h3 className="font-pinyon text-3xl sm:text-4xl">
+                {weddingData.bride.name}
               </h3>
+
             </div>
           </div>
         </motion.div>
